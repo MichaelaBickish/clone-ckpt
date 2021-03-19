@@ -1,0 +1,30 @@
+/* 
+* {
+    outline: 1px; solid red;
+}
+*/
+
+.hero-image {
+    background-image: url(//placehold.it/500X500);
+    position: center;
+}
+
+
+@media only screen and (max-width:768px) {
+    .words-on-image{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .list-box-parent {
+    position: relative;
+}
+
+    .list-box {
+    position: absolute;
+    bottom: -1rem;
+}
+}
+
