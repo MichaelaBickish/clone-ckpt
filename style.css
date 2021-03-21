@@ -3,12 +3,57 @@
     outline: 1px; solid red;
 }
 */
+:root {
+    --primary: #7fcfd8;
+    --secondary: #3c738e;
+    --dark: #324c59;
 
-.hero-image {
-    background-image: url(//placehold.it/500X500);
-    position: center;
+}
+header {
+    background-color: var(--primary);
 }
 
+body {
+    font-family: Arial;
+}
+
+.btn-outline {
+    color: var(--primary);
+}
+
+.hero-image {
+    background-image: url(./tobias-tullius-QTEZfr5xKF8-unsplash.jpg);
+    position: center;
+    background-size: cover;
+}
+
+.floater {
+    background-color: var(--primary);
+}
+.fa-tree {
+    color: var(--primary);
+}
+.fa-hiking {
+    color: var(--primary);
+}
+.fa-spa {
+    color: var(--primary);
+}
+.fa-camera {
+    color: var(--primary);
+}
+.fa-map-signs {
+    color: var(--primary);
+}
+.fa-star {
+    color: var(--primary);
+}
+.end-message {
+    background-color: var(--primary);
+}
+.trip-lists {
+    color: var(--secondary);
+}
 
 @media only screen and (max-width:768px) {
     .words-on-image{
@@ -24,7 +69,7 @@
 
     .list-box {
     position: absolute;
-    bottom: -1rem;
+    bottom: -2rem;
 }
 }
 
