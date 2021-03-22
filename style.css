@@ -16,6 +16,9 @@ header {
 body {
     font-family: Arial;
 }
+footer {
+    color: var(--primary);
+}
 
 .btn-outline {
     color: var(--primary);
